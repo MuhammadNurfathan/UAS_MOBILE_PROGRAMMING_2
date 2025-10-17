@@ -33,8 +33,8 @@ const HomeScreen = () => {
   }, [token]);
 
   const menuItems = [
-    { id: 1, title: 'Profil', screen: 'Profile', icon: '👤', color: '#4A90E2' },
-    { id: 2, title: 'List Product', screen: 'listprodct', icon: '⚙️', color: '#50C878' },
+    { id: 1, title: 'User List', screen: 'Profile', color: '#8c4ae2ff' },
+    { id: 2, title: 'Product List', screen: 'listprodct',color: '#50C878' },
 
   ];
 
